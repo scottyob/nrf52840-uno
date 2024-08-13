@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "nRF52840-Uno")
-		(date "2024-08-12")
-		(rev "0.1")
+		(date "2024-08-13")
+		(rev "0.2")
 		(company "Scott O'Brien")
 	)
 	(lib_symbols
@@ -8557,13 +8557,13 @@
 		(uuid "2ef3d4b1-ee97-4438-a6b4-0497b6b469f9")
 	)
 	(label "P0.26"
-		(at 133.35 124.46 180)
+		(at 146.05 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "30e5c0c9-35c1-429e-8ca2-b11a3f89279f")
 	)
@@ -8623,13 +8623,13 @@
 		(uuid "444ab36a-3ab6-4cc8-a87f-eddae5e723a1")
 	)
 	(label "P0.27"
-		(at 146.05 121.92 0)
+		(at 133.35 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "493bd15b-4915-4cfc-90c9-dd779e95dec6")
 	)
@@ -8645,13 +8645,13 @@
 		(uuid "4d2d04c1-a2c2-43d9-af04-69070edd57d7")
 	)
 	(label "P1.12"
-		(at 146.05 116.84 0)
+		(at 133.35 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5261ff25-9af7-415e-974f-e4d56185797c")
 	)
@@ -8909,13 +8909,13 @@
 		(uuid "8b001b81-369d-4430-bfe9-8d1e4fc69ad2")
 	)
 	(label "P0.25"
-		(at 133.35 116.84 180)
+		(at 146.05 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8c1785af-7538-4300-8e92-7540cfac0162")
 	)
@@ -9052,13 +9052,13 @@
 		(uuid "abac96ce-dd53-447d-a195-0fe0c1c8811c")
 	)
 	(label "P0.11"
-		(at 146.05 119.38 0)
+		(at 133.35 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ad80f3c8-0a9d-439f-913c-8179bd60027a")
 	)
@@ -9140,13 +9140,13 @@
 		(uuid "bfcdf4ac-2c3b-4fd9-b0e9-59116f78bb52")
 	)
 	(label "P0.06"
-		(at 146.05 124.46 0)
+		(at 133.35 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "bfe82e50-5583-4cc5-8c60-061b5d23fc4f")
 	)
@@ -9294,13 +9294,13 @@
 		(uuid "e91169de-665b-4a6c-97bb-d75322e3f5df")
 	)
 	(label "P0.08"
-		(at 133.35 121.92 180)
+		(at 146.05 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e948b78b-4bb7-45ec-8a7d-613e3ceba1aa")
 	)
@@ -9349,13 +9349,13 @@
 		(uuid "ef7d6404-1224-4d33-a448-d1343396a788")
 	)
 	(label "P1.08"
-		(at 133.35 119.38 180)
+		(at 146.05 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f04bb611-15b9-40c1-8fbd-fe41f1f1c382")
 	)
@@ -12350,72 +12350,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VSW")
-		(at 231.14 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "946281ad-1fab-40bf-96c1-64671f5dc704")
-		(property "Reference" "#PWR026"
-			(at 231.14 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VSW"
-			(at 231.14 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+VSW\""
-			(at 231.14 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e6ca8f7-3880-4879-854f-d8adb027f541")
-		)
-		(instances
-			(project "board"
-				(path "/1e24de4f-8603-46cc-9c9d-c795d003639a"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 231.14 146.05 0)
 		(unit 1)
@@ -13501,6 +13435,72 @@
 			(project ""
 				(path "/1e24de4f-8603-46cc-9c9d-c795d003639a"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 231.14 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7687997-3852-44de-871f-d69f97bad3a5")
+		(property "Reference" "#PWR026"
+			(at 231.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 231.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 231.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8ac382d-5346-4efd-8864-83f21b5c076b")
+		)
+		(instances
+			(project "board"
+				(path "/1e24de4f-8603-46cc-9c9d-c795d003639a"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
