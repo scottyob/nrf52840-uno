@@ -2977,7 +2977,7 @@
 		(descr "Fuse SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F1"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(uuid "c4bbc264-8922-4267-91b1-a24809cabd7d")
 			(effects
@@ -2988,7 +2988,7 @@
 			)
 		)
 		(property "Value" "500mA"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "0b028f2c-b7f9-460e-8bd7-31ae954713fe")
 			(effects
@@ -3175,7 +3175,7 @@
 			(uuid "5c43094e-aa15-49ac-9d72-7b45f3827804")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "af684b64-50d7-4c78-8982-249a438fa6bb")
 			(effects
@@ -5386,7 +5386,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 1.49 0 360)
+			(at 1.49 0 0)
 			(layer "F.SilkS")
 			(uuid "b74aea13-4304-4062-8db3-b62edc0b4f7c")
 			(effects
@@ -5397,7 +5397,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "49661a68-d30b-47f1-ac0a-bbbcb19c3b2d")
 			(effects
@@ -5552,7 +5552,7 @@
 			(uuid "1046a41d-d943-473d-9a18-fda0e76cd159")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f952efdd-9d73-458f-9f27-6ffd21c7f3d8")
 			(effects
@@ -7766,7 +7766,7 @@
 		(descr "tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm")
 		(tags "tact sw push 6mm smd")
 		(property "Reference" "SW_Reset1"
-			(at 0 -4.05 360)
+			(at 0 -4.05 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b9197815-ac7c-420e-8934-01c5c87e623a")
@@ -7778,7 +7778,7 @@
 			)
 		)
 		(property "Value" "Reset"
-			(at 0 4.15 360)
+			(at 0 4.15 0)
 			(layer "F.SilkS")
 			(uuid "d05c489e-ab83-463a-bd41-c43b6580e6c2")
 			(effects
@@ -8003,7 +8003,7 @@
 			(uuid "d505cb81-374f-47a3-9fd9-755644a4c30b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -4.05 360)
+			(at 0 -4.05 0)
 			(layer "F.Fab")
 			(uuid "176166c9-051d-4ca1-bda6-07b6df8914ad")
 			(effects
@@ -11133,7 +11133,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "1.08"
+	(gr_text "0.11"
 		(at 174.7 108.8 0)
 		(layer "F.SilkS")
 		(uuid "27389794-6caa-425d-aa65-60b3625cf124")
@@ -11146,7 +11146,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "0.26"
+	(gr_text "0.06"
 		(at 174.7 113.8 0)
 		(layer "F.SilkS")
 		(uuid "27684456-240b-4b82-a65c-b37bf5bdc8c1")
@@ -11376,7 +11376,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "0.11"
+	(gr_text "1.08"
 		(at 180.9 109 0)
 		(layer "F.SilkS")
 		(uuid "504ed07c-0e6a-4d22-9122-ace24018968b")
@@ -11659,7 +11659,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "0.27"
+	(gr_text "0.08"
 		(at 180.9 111.4 0)
 		(layer "F.SilkS")
 		(uuid "83c28867-a473-4bcc-94f4-a8268b303f3c")
@@ -11672,7 +11672,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "1.12"
+	(gr_text "0.25"
 		(at 180.9 106.4 0)
 		(layer "F.SilkS")
 		(uuid "88823649-4e99-47b5-a641-1856174b057a")
@@ -11840,7 +11840,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "0.25"
+	(gr_text "1.12"
 		(at 174.7 106.2 0)
 		(layer "F.SilkS")
 		(uuid "c1c8d003-7bab-4929-aca9-3e5918e94d78")
@@ -11853,7 +11853,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "0.08"
+	(gr_text "0.27"
 		(at 174.7 111.2 0)
 		(layer "F.SilkS")
 		(uuid "c3a1ed55-9ab7-46f2-9c81-7f0bec769206")
