@@ -8081,6 +8081,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 157.48) (xy 151.13 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66d67eb-77ab-4b2c-bffc-5cb1dfe97bfd")
+	)
+	(wire
+		(pts
 			(xy 44.45 165.1) (xy 44.45 166.37)
 		)
 		(stroke
@@ -8140,6 +8150,18 @@
 			(type none)
 		)
 		(uuid 1d8f94d2-9f23-4854-ba70-486e7e03b29b)
+	)
+	(rectangle
+		(start 138.43 142.24)
+		(end 181.61 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 59f64176-55de-4334-9f5e-69f3446af656)
 	)
 	(rectangle
 		(start 17.78 13.97)
@@ -8281,6 +8303,16 @@
 			(justify left bottom)
 		)
 		(uuid "bcbabefa-09b1-435a-b2bb-e9db691efcdf")
+	)
+	(text "Debug Pins"
+		(exclude_from_sim no)
+		(at 157.226 146.812 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "d9d80efc-60fd-4a3d-8fb5-89cb2b72f173")
 	)
 	(text "Power Switch"
 		(exclude_from_sim no)
@@ -9541,7 +9573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 241.3 105.41 0)
 			(effects
 				(font
@@ -9674,7 +9706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0402_1005Metric"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 76.2 147.32 0)
 			(effects
 				(font
@@ -10176,7 +10208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 260.35 54.61 0)
 			(effects
 				(font
@@ -10280,6 +10312,76 @@
 			(project ""
 				(path "/1e24de4f-8603-46cc-9c9d-c795d003639a"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 156.21 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "298f5082-ddb7-4637-912a-5495fa59dc35")
+		(property "Reference" "J3"
+			(at 157.48 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 157.48 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 156.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 156.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa7f49f2-99ef-4d9d-bd4f-d7157d521c95")
+		)
+		(pin "1"
+			(uuid "008d2af5-7cb8-4a9c-8a46-1e2abec77da1")
+		)
+		(instances
+			(project ""
+				(path "/1e24de4f-8603-46cc-9c9d-c795d003639a"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10454,7 +10556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 241.3 110.49 0)
 			(effects
 				(font
@@ -10497,6 +10599,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 151.13 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34b7d7b9-f509-40dd-ba99-fbf58eda9a4a")
+		(property "Reference" "#PWR038"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e2cafd7-dadc-4583-b305-ed07ee539a26")
+		)
+		(instances
+			(project "board"
+				(path "/1e24de4f-8603-46cc-9c9d-c795d003639a"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 48.26 153.67 90)
 		(unit 1)
@@ -10521,7 +10690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 48.26 155.448 90)
 			(effects
 				(font
@@ -10723,7 +10892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 276.86 95.25 0)
 			(effects
 				(font
@@ -10926,7 +11095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 204.1652 36.83 0)
 			(effects
 				(font
@@ -11447,7 +11616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 229.362 138.43 90)
 			(effects
 				(font
@@ -11515,7 +11684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 210.82 59.69 0)
 			(effects
 				(font
@@ -11855,6 +12024,71 @@
 			(project "board"
 				(path "/1e24de4f-8603-46cc-9c9d-c795d003639a"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 144.78 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "873765c3-01bd-467d-92d8-acb1f312294a")
+		(property "Reference" "#PWR039"
+			(at 148.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 140.97 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 144.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a3b7255-fbf0-4bdc-b3d1-17a96a2e882e")
+		)
+		(instances
+			(project "board"
+				(path "/1e24de4f-8603-46cc-9c9d-c795d003639a"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12377,7 +12611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 229.362 146.05 90)
 			(effects
 				(font
@@ -12511,7 +12745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 48.26 152.908 90)
 			(effects
 				(font
@@ -12696,7 +12930,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 260.35 39.37 90)
 			(effects
 				(font
@@ -13398,7 +13632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 23.622 91.44 90)
 			(effects
 				(font
@@ -13441,72 +13675,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 231.14 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7687997-3852-44de-871f-d69f97bad3a5")
-		(property "Reference" "#PWR026"
-			(at 231.14 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 231.14 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 231.14 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8ac382d-5346-4efd-8864-83f21b5c076b")
-		)
-		(instances
-			(project "board"
-				(path "/1e24de4f-8603-46cc-9c9d-c795d003639a"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 217.17 59.69 0)
 		(unit 1)
@@ -13532,7 +13700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 217.17 59.69 0)
 			(effects
 				(font
@@ -14239,7 +14407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 252.73 52.07 0)
 			(effects
 				(font
@@ -14547,7 +14715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 24.13 186.69 0)
 			(effects
 				(font
@@ -14615,7 +14783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 205.74 59.69 0)
 			(effects
 				(font
@@ -14789,6 +14957,72 @@
 			(project ""
 				(path "/1e24de4f-8603-46cc-9c9d-c795d003639a"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VSW")
+		(at 231.14 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed39d925-eab3-47fc-b0e0-eef3650595ec")
+		(property "Reference" "#PWR026"
+			(at 231.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VSW"
+			(at 231.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
+			(at 231.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75fdc894-4ff7-4dee-8fb1-b770af02e142")
+		)
+		(instances
+			(project "board"
+				(path "/1e24de4f-8603-46cc-9c9d-c795d003639a"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)

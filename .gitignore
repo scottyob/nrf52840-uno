@@ -30,3 +30,6 @@ fp-info-cache
 
 # Others
 *kleplace.log
+
+# Production plugin
+production/

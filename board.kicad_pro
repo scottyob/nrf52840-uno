@@ -59,17 +59,16 @@
         }
       ],
       "drc_exclusions": [
-        "footprint_type_mismatch|125450000|42720000|c43386bc-5fd8-4dfb-8f60-f7a11e9a2e0d|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|157980119|63950000|43052469-5219-4fcb-8b5b-d8923bf8bbea|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|123009683|38020000|bced7f7e-b3d9-4876-bc26-5e4a112d1fdc|4495b7d4-9c75-4ecb-a4e3-a048e4fd6b1d",
-        "silk_edge_clearance|123084286|47420000|bced7f7e-b3d9-4876-bc26-5e4a112d1fdc|f31d58c6-610b-4d66-b298-e78ba5e62db9",
-        "silk_overlap|123400000|38020000|d6211953-1225-4cd9-90ac-db2039ba0136|4495b7d4-9c75-4ecb-a4e3-a048e4fd6b1d",
-        "silk_overlap|123400000|47420000|d6211953-1225-4cd9-90ac-db2039ba0136|f31d58c6-610b-4d66-b298-e78ba5e62db9",
-        "starved_thermal|129495000|39470000|b2e9cc46-90d6-44a7-a240-e9c24e80ad9a|367ab4ae-26ff-44a9-a6f4-903d990e8649|F.Cu",
-        "starved_thermal|129495000|39470000|b2e9cc46-90d6-44a7-a240-e9c24e80ad9a|f9dc442f-9a03-4e13-bade-fe7f8d279e5b|F.Cu",
-        "starved_thermal|129495000|45970000|b2e9cc46-90d6-44a7-a240-e9c24e80ad9a|19cf24de-5dfd-4cbd-ade4-547e211c1806|F.Cu",
-        "starved_thermal|129495000|45970000|b2e9cc46-90d6-44a7-a240-e9c24e80ad9a|1d67984e-a30a-4642-8c18-69f9eada719f|F.Cu",
-        "starved_thermal|137250000|51600000|b2e9cc46-90d6-44a7-a240-e9c24e80ad9a|25f7ce8f-d0e3-454e-bf9f-3703496d46b0|F.Cu"
+        "copper_edge_clearance|184500000|101600000|bced7f7e-b3d9-4876-bc26-5e4a112d1fdc|f46f4521-ac9e-4f20-8679-aeb9fafc5970",
+        "copper_edge_clearance|184500000|117500000|bced7f7e-b3d9-4876-bc26-5e4a112d1fdc|6dd73444-bd87-43b9-899b-11a76bf6cbd9",
+        "courtyards_overlap|175137555|84100001|2b74efc3-be66-4816-935e-2984c599a538|6e06dbd8-b749-48cb-a94a-3f87e605d414",
+        "footprint_type_mismatch|105205000|83420000|c43386bc-5fd8-4dfb-8f60-f7a11e9a2e0d|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|136880119|104150000|43052469-5219-4fcb-8b5b-d8923bf8bbea|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|172735000|85900000|2b74efc3-be66-4816-935e-2984c599a538|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|101913651|78720000|bced7f7e-b3d9-4876-bc26-5e4a112d1fdc|4495b7d4-9c75-4ecb-a4e3-a048e4fd6b1d",
+        "silk_edge_clearance|101988254|88120000|bced7f7e-b3d9-4876-bc26-5e4a112d1fdc|f31d58c6-610b-4d66-b298-e78ba5e62db9",
+        "starved_thermal|111900000|93037500|b2e9cc46-90d6-44a7-a240-e9c24e80ad9a|25f7ce8f-d0e3-454e-bf9f-3703496d46b0|F.Cu",
+        "starved_thermal|113175000|78500000|b2e9cc46-90d6-44a7-a240-e9c24e80ad9a|67b49dfa-8413-43b0-aa6b-5cc9beca8dec|F.Cu"
       ],
       "meta": {
         "version": 2
@@ -110,12 +109,12 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "ignore",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
-        "text_thickness": "warning",
+        "text_height": "ignore",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -128,7 +127,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
@@ -140,10 +139,10 @@
         "min_text_height": 0.6,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.13,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -191,7 +190,6 @@
       ],
       "track_widths": [
         0.0,
-        0.13,
         0.3
       ],
       "tuning_pattern_settings": {
