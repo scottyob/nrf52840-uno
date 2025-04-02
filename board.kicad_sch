@@ -7339,6 +7339,16 @@
 		)
 		(uuid "1b5a734c-9353-4ec5-9d82-42e52fe5f81c")
 	)
+	(wire
+		(pts
+			(xy 265.43 132.08) (xy 266.7 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24509bde-9651-4cf1-86e2-167b5eb3475f")
+	)
 	(polyline
 		(pts
 			(xy 254 120.65) (xy 254 162.56)
@@ -7911,16 +7921,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 132.08) (xy 266.7 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b55b9f57-01c7-469a-a59a-670737f83e01")
-	)
-	(wire
-		(pts
 			(xy 257.81 100.33) (xy 257.81 102.87)
 		)
 		(stroke
@@ -8088,6 +8088,16 @@
 			(type default)
 		)
 		(uuid "e66d67eb-77ab-4b2c-bffc-5cb1dfe97bfd")
+	)
+	(wire
+		(pts
+			(xy 265.43 134.62) (xy 266.7 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e65c1e-7066-4736-8811-91690441c620")
 	)
 	(wire
 		(pts
@@ -8337,7 +8347,6 @@
 	)
 	(label "P0.27"
 		(at 33.02 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8348,7 +8357,6 @@
 	)
 	(label "P1.09"
 		(at 48.26 101.6 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8359,7 +8367,6 @@
 	)
 	(label "P1.00"
 		(at 78.74 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8370,7 +8377,6 @@
 	)
 	(label "P0.29"
 		(at 33.02 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8381,7 +8387,6 @@
 	)
 	(label "P1.08"
 		(at 33.02 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8392,7 +8397,6 @@
 	)
 	(label "SWD"
 		(at 78.74 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8403,7 +8407,6 @@
 	)
 	(label "P1.12"
 		(at 33.02 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8414,7 +8417,6 @@
 	)
 	(label "P0.07"
 		(at 45.72 101.6 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8425,7 +8427,6 @@
 	)
 	(label "P1.07"
 		(at 133.35 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8436,7 +8437,6 @@
 	)
 	(label "P0.30"
 		(at 113.03 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8447,7 +8447,6 @@
 	)
 	(label "P0.31"
 		(at 25.4 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8458,7 +8457,6 @@
 	)
 	(label "P0.31"
 		(at 113.03 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8469,7 +8467,6 @@
 	)
 	(label "P1.07"
 		(at 78.74 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8480,7 +8477,6 @@
 	)
 	(label "P1.06"
 		(at 78.74 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8491,7 +8487,6 @@
 	)
 	(label "P0.16"
 		(at 133.35 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8502,7 +8497,6 @@
 	)
 	(label "P1.00"
 		(at 163.83 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8513,7 +8507,6 @@
 	)
 	(label "P0.15"
 		(at 78.74 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8524,7 +8517,6 @@
 	)
 	(label "P0.25"
 		(at 33.02 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8535,7 +8527,6 @@
 	)
 	(label "P0.02"
 		(at 33.02 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8546,7 +8537,6 @@
 	)
 	(label "P1.14"
 		(at 146.05 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8557,7 +8547,6 @@
 	)
 	(label "P1.01"
 		(at 78.74 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8568,7 +8557,6 @@
 	)
 	(label "P0.17"
 		(at 78.74 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8579,7 +8567,6 @@
 	)
 	(label "D-"
 		(at 48.26 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8590,7 +8577,6 @@
 	)
 	(label "P0.26"
 		(at 146.05 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8601,7 +8587,6 @@
 	)
 	(label "P0.17"
 		(at 133.35 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8612,7 +8597,6 @@
 	)
 	(label "P0.20"
 		(at 78.74 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8623,7 +8607,6 @@
 	)
 	(label "P0.12"
 		(at 50.8 101.6 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8634,7 +8617,6 @@
 	)
 	(label "P1.15"
 		(at 133.35 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8645,7 +8627,6 @@
 	)
 	(label "SWC"
 		(at 146.05 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8656,7 +8637,6 @@
 	)
 	(label "P0.27"
 		(at 133.35 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8667,7 +8647,6 @@
 	)
 	(label "P0.18"
 		(at 163.83 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8678,7 +8657,6 @@
 	)
 	(label "P1.12"
 		(at 133.35 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8689,7 +8667,6 @@
 	)
 	(label "P1.10"
 		(at 33.02 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8700,7 +8677,6 @@
 	)
 	(label "P0.16"
 		(at 78.74 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8711,7 +8687,6 @@
 	)
 	(label "P0.28"
 		(at 113.03 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8722,7 +8697,6 @@
 	)
 	(label "P0.13"
 		(at 146.05 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8733,7 +8707,6 @@
 	)
 	(label "P1.02"
 		(at 78.74 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8744,7 +8717,6 @@
 	)
 	(label "P0.18"
 		(at 60.96 113.03 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8755,7 +8727,6 @@
 	)
 	(label "D+"
 		(at 91.44 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8766,7 +8737,6 @@
 	)
 	(label "P1.03"
 		(at 78.74 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8777,7 +8747,6 @@
 	)
 	(label "P1.02"
 		(at 163.83 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8788,7 +8757,6 @@
 	)
 	(label "P1.06"
 		(at 163.83 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8799,7 +8767,6 @@
 	)
 	(label "P0.06"
 		(at 33.02 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8810,7 +8777,6 @@
 	)
 	(label "P1.15"
 		(at 33.02 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8821,7 +8787,6 @@
 	)
 	(label "P0.13"
 		(at 78.74 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8832,7 +8797,6 @@
 	)
 	(label "P1.09"
 		(at 146.05 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8843,7 +8807,6 @@
 	)
 	(label "P0.26"
 		(at 33.02 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8854,7 +8817,6 @@
 	)
 	(label "D+"
 		(at 48.26 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8865,7 +8827,6 @@
 	)
 	(label "P0.15"
 		(at 146.05 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8876,7 +8837,6 @@
 	)
 	(label "P1.10"
 		(at 133.35 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8887,7 +8847,6 @@
 	)
 	(label "P0.23"
 		(at 53.34 101.6 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8898,7 +8857,6 @@
 	)
 	(label "P0.10"
 		(at 78.74 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8909,7 +8867,6 @@
 	)
 	(label "P1.11"
 		(at 146.05 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8920,7 +8877,6 @@
 	)
 	(label "P0.02"
 		(at 113.03 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8931,7 +8887,6 @@
 	)
 	(label "P1.04"
 		(at 163.83 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8942,7 +8897,6 @@
 	)
 	(label "P0.25"
 		(at 146.05 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8953,7 +8907,6 @@
 	)
 	(label "P0.14"
 		(at 133.35 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8964,7 +8917,6 @@
 	)
 	(label "P0.04"
 		(at 33.02 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8975,7 +8927,6 @@
 	)
 	(label "P0.12"
 		(at 163.83 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8986,7 +8937,6 @@
 	)
 	(label "P1.05"
 		(at 78.74 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8997,7 +8947,6 @@
 	)
 	(label "P0.19"
 		(at 163.83 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9008,7 +8957,6 @@
 	)
 	(label "P0.10"
 		(at 163.83 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9019,7 +8967,6 @@
 	)
 	(label "P0.09"
 		(at 78.74 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9030,7 +8977,6 @@
 	)
 	(label "P1.05"
 		(at 146.05 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9041,7 +8987,6 @@
 	)
 	(label "P0.29"
 		(at 113.03 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9052,7 +8997,6 @@
 	)
 	(label "P0.28"
 		(at 33.02 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9063,7 +9007,6 @@
 	)
 	(label "D+"
 		(at 68.58 101.6 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9074,7 +9017,6 @@
 	)
 	(label "P0.04"
 		(at 133.35 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9085,7 +9027,6 @@
 	)
 	(label "P0.11"
 		(at 133.35 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9096,7 +9037,6 @@
 	)
 	(label "P0.21"
 		(at 163.83 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9107,7 +9047,6 @@
 	)
 	(label "P0.09"
 		(at 163.83 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9118,7 +9057,6 @@
 	)
 	(label "SWD"
 		(at 133.35 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9129,7 +9067,6 @@
 	)
 	(label "P1.03"
 		(at 163.83 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9140,7 +9077,6 @@
 	)
 	(label "P0.03"
 		(at 33.02 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9151,7 +9087,6 @@
 	)
 	(label "P1.13"
 		(at 146.05 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9162,7 +9097,6 @@
 	)
 	(label "P0.20"
 		(at 146.05 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9173,7 +9107,6 @@
 	)
 	(label "P0.06"
 		(at 133.35 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9184,7 +9117,6 @@
 	)
 	(label "P0.08"
 		(at 33.02 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9195,7 +9127,6 @@
 	)
 	(label "P0.07"
 		(at 133.35 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9206,7 +9137,6 @@
 	)
 	(label "P0.24"
 		(at 133.35 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9217,7 +9147,6 @@
 	)
 	(label "P0.18"
 		(at 163.83 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9228,7 +9157,6 @@
 	)
 	(label "P0.19"
 		(at 58.42 101.6 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9239,7 +9167,6 @@
 	)
 	(label "P0.05"
 		(at 146.05 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9250,7 +9177,6 @@
 	)
 	(label "P1.11"
 		(at 33.02 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9261,7 +9187,6 @@
 	)
 	(label "D-"
 		(at 66.04 101.6 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9272,7 +9197,6 @@
 	)
 	(label "P0.23"
 		(at 163.83 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9283,7 +9207,6 @@
 	)
 	(label "P0.11"
 		(at 33.02 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9294,7 +9217,6 @@
 	)
 	(label "P1.04"
 		(at 78.74 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9305,7 +9227,6 @@
 	)
 	(label "P0.05"
 		(at 33.02 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9316,7 +9237,6 @@
 	)
 	(label "P0.22"
 		(at 163.83 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9327,7 +9247,6 @@
 	)
 	(label "P0.08"
 		(at 146.05 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9338,7 +9257,6 @@
 	)
 	(label "P1.01"
 		(at 163.83 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9349,7 +9267,6 @@
 	)
 	(label "P0.30"
 		(at 33.02 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9360,7 +9277,6 @@
 	)
 	(label "SWC"
 		(at 78.74 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9371,7 +9287,6 @@
 	)
 	(label "P0.21"
 		(at 55.88 101.6 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9382,7 +9297,6 @@
 	)
 	(label "P1.08"
 		(at 146.05 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9393,7 +9307,6 @@
 	)
 	(label "P0.03"
 		(at 113.03 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9404,7 +9317,6 @@
 	)
 	(label "P0.14"
 		(at 78.74 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9415,7 +9327,6 @@
 	)
 	(label "P0.24"
 		(at 78.74 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9426,7 +9337,6 @@
 	)
 	(label "P1.14"
 		(at 33.02 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9437,7 +9347,6 @@
 	)
 	(label "P0.22"
 		(at 78.74 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9448,7 +9357,6 @@
 	)
 	(label "P1.13"
 		(at 33.02 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12096,7 +12004,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 265.43 132.08 90)
+		(at 265.43 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12105,7 +12013,7 @@
 		(fields_autoplaced yes)
 		(uuid "88b766b8-3d76-471e-9014-1f5bb1215bbe")
 		(property "Reference" "#PWR025"
-			(at 269.24 132.08 0)
+			(at 269.24 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12114,7 +12022,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 261.62 132.0799 90)
+			(at 261.62 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12123,7 +12031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 132.08 0)
+			(at 265.43 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12132,7 +12040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 132.08 0)
+			(at 265.43 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12141,7 +12049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 265.43 132.08 0)
+			(at 265.43 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12163,7 +12071,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 134.62 270)
+		(at 265.43 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12171,7 +12079,7 @@
 		(dnp no)
 		(uuid "8c010ec9-1d19-4448-b818-bae046fd2710")
 		(property "Reference" "#PWR027"
-			(at 260.35 134.62 0)
+			(at 259.08 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12180,7 +12088,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 263.4488 134.747 90)
+			(at 262.1788 132.207 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12189,7 +12097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 134.62 0)
+			(at 265.43 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12198,7 +12106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 134.62 0)
+			(at 265.43 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12207,7 +12115,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 134.62 0)
+			(at 265.43 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
